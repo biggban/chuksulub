@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/index.css" />
+    <link rel="stylesheet" href="stylesheets/menu.css" />
+    <title>Обучение администратора</title>
+  </head>
+  <body>
+    <div class="top_lines">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <img class="top_img" src="images/central_monitor_screen.png" alt="" />
+
+    <!-- EDUCATION -->
+    <!-- <div id="education">
+      <div class="menu_educ">
+        <div class="menu_block_active_educ" id="menu_block_active_educ">
+          <p>ОБУЧЕНИЕ</p>
+        </div>
+      </div>
+      <div class="screen" id="education_screen">
+        <div id="education_full">
+          <div class="screen_naming_in_educ">
+            <h1 id="screen_naming_educ" style="visibility: hidden">
+              ЦКЭ ЧУКСУЛУБ
+            </h1>
+            <h2 id="screen_naming_educ_2" style="visibility: hidden">
+              СИСИТЕМА ОБУЧЕНИЯ АДМИНИСТРАТОРА
+            </h2>
+            <h2 id="screen_naming_educ_3" style="visibility: hidden">
+              - СЕРВЕР 1-
+            </h2>
+          </div>
+          <div class="screen_educ" id="screen_educ">
+            <p id="screen_educ_login_1" style="visibility: hidden">
+              Введите ваш логин
+            </p>
+            <input type="text" placeholder="Алекс" id="user_name" />
+            <button
+              type="button"
+              id="nextScreen"
+              style="visibility: hidden; margin-top: 50px"
+            >
+              >
+              <p id="nextScreen_p" style="visibility: hidden">Подтвердить</p>
+            </button>
+          </div>
+          <div id="screen_educ_2">
+            <div id="second_educ_screen"></div>
+            <br />
+            <br />
+            <div style="display: flex; align-items: center">
+              <p id="screen_educ_text_1" style="visibility: hidden">
+                Во время работы вы можете нажать на
+              </p>
+              <div
+                style="
+                  visibility: hidden;
+                  position: relative;
+                  margin-left: 2vh;
+                  margin-top: 1vh;
+                  pointer-events: none;
+                "
+                id="screen_educ_tip"
+                class="tip educ_pos"
+              >
+                ?
+              </div>
+            </div>
+
+            <p
+              id="screen_educ_text_2"
+              style="visibility: hidden; margin-top: 0px"
+            >
+              и получить подсказку
+            </p>
+
+            <br />
+            <br />
+            <br />
+            <p id="screen_educ_text_3" style="visibility: hidden">Начать?</p>
+            <button
+              type="button"
+              id="screen_educ_buttonYes"
+              style="visibility: hidden; justify-content: flex-start"
+            >
+              >
+              <p id="screen_educ_buttonYes_p" style="visibility: hidden">Да</p>
+            </button>
+            <button
+              type="button"
+              id="screen_educ_buttonNo"
+              style="visibility: hidden"
+            >
+              >
+              <p id="screen_educ_buttonNo_p" style="visibility: hidden">Нет</p>
+            </button>
+            <br />
+            <br />
+            <p id="screen_educ_buttonNo_p_2" style="visibility: hidden">>Нет</p>
+            <br />
+            <br />
+            <p id="screen_educ_buttonNo_joke" style="visibility: hidden">
+              Ха-ха. Очень смешная шутка, но, боюсь, что работа администратора и
+              шутника не совместимы. Да, мы немного душнилы :)
+            </p>
+          </div>
+          <div id="fail_screen_joke" class="fail_screen_joke">
+            <h1 id="fail_screen_joke_text_1" style="visibility: hidden">
+              КАКОЙ УЖАС
+            </h1>
+            <p
+              id="fail_screen_joke_2"
+              style="visibility: hidden; text-align: center"
+            >
+              Обучение провалено
+            </p>
+            <h1
+              id="fail_screen_joke_3"
+              style="visibility: hidden; text-align: center; margin-top: 50px"
+            >
+              1/0
+            </h1>
+            <p
+              id="fail_screen_joke_4"
+              style="visibility: hidden; text-align: center"
+            >
+              доступных уместных шуток
+            </p>
+            <img
+              src="images/sad_semmy.png"
+              alt=""
+              id="fail_screen_joke_sad_semmy"
+              class="fail_screen_joke_sad_semmy"
+            />
+          </div>
+          <button
+            type="button"
+            id="message_reload"
+            style="visibility: hidden; top: 50%; transform: translateY(-50%)"
+          >
+            <h1>ПОВТОРИТЬ?</h1>
+          </button>
+        </div>
+      </div>
+
+      <div class="preloader_full">
+        <img
+          src="images/loading_semmy_1.png"
+          alt=""
+          id="semmy_loader"
+          class="semmy_loader"
+        />
+      </div>
+    </div> -->
+    <!-- GAME SCREENS -->
+
+    <div id="game" style="display: block">
+      <div class="menu_game hidden_tool">
+        <div class="menu_block" id="screen_condition"><p>УСЛОВИЯ</p></div>
+        <div class="menu_block active" id="screen_resque"><p>ЗАПРОС</p></div>
+        <div class="menu_block" id="screen_planet"><p>ПЛАНЕТА</p></div>
+        <div class="menu_block" id="screen_group"><p>ГРУППЫ</p></div>
+      </div>
+      <div class="screen">
+        <div class="hidden_tool tooltip_1_1">
+          <h2 id="screen_naming_2_1"></h2>
+          <h1 id="screen_naming_1_2">ЗАПРОС №1</h1>
+          <h2 id="screen_naming_2_3">ГУМАНИТАРНАЯ ПОМОЩЬ</h2>
+        </div>
+        <div
+          class="second_part_screen"
+          id="resque_screen"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+          "
+        >
+          <div>
+            <div>
+              <div
+                class="tip_boxes tooltip_1"
+                id="resque_screen_tip_box_1"
+                style="margin-top: 30vh; visibility: hidden"
+              >
+                <p>
+                  Исходя из информации, предоставленной запросом, сделайте вывод
+                  о состоянии планеты и о необходимости в помощи
+                </p>
+                <img src="images/close.svg" alt="" class="closing_tip" />
+              </div>
+              <h2 class="tooltip_1 hidden_tool">ТЕКСТ ОБРАЩЕНИЯ</h2>
+              <div
+                id="resque_screen_tip_1"
+                class="tip hidden_tool tooltip_1"
+                style="margin-left: 46vh; margin-top: -5vh"
+              >
+                ?
+              </div>
+              <p class="tooltip_1 hidden_tool" id="resque_text">
+                Здравствуйте, просим вас прислать дополнительную зимнюю
+                гуманитарную помощь в 7 район. За последнюю неделю средняя
+                дневная температура опустилась ниже -10 градусов. Также
+                направили записи о нестабильных изменениях температуры в
+                исследовательский центр, так как центра безопасности планет у
+                нас нет
+              </p>
+              <br />
+              <br />
+              <br />
+              <h2
+                style="display: flex; flex-direction: row"
+                class="hidden_tool tooltip_1"
+              >
+                ПРИЛОЖЕНИЕ:
+                <p
+                  class="tooltip_1 hidden_tool"
+                  style="margin-top: 0px"
+                  id="adding_file"
+                >
+                  month_temp.xls
+                </p>
+              </h2>
+            </div>
+            <div
+              class="tip_boxes"
+              id="resque_screen_tip_box_2"
+              style="margin-top: -20vh; visibility: hidden"
+            >
+              <p>
+                Варианты решений для вашей задачи. Исходя из критериев, выберете
+                лучшее решение для ситуации Есть несколько базовых ответов, а
+                также возможность перенаправить запрос в другой отдел для
+                дальнейшего рассмотрения, если ситуация неоднозначная
+              </p>
+              <img src="images/close.svg" alt="" class="closing_tip" />
+            </div>
+          </div>
+          <div
+            id="resque_buttons"
+            class="resque_buttons hidden_tool tooltip_2"
+            style="margin-top: 0"
+          >
+            <div
+              id="resque_screen_tip_2"
+              class="tip"
+              style="left: calc(100% - 3vh); position: relative"
+            >
+              ?
+            </div>
+
+            <button
+              type="button"
+              id="resque_button_help_usuall"
+              class="resque_button_next"
+              style="margin-top: 0"
+            >
+              <p>>Отправить гуманитарную помощь</p>
+            </button>
+            <button
+              type="button"
+              id="resque_button_group_volonture"
+              class="resque_button_next"
+              style="display: none; pointer-events: none; opacity: 0.5"
+            >
+              <p>>Отправить группу волонтеров</p>
+            </button>
+            <button
+              type="button"
+              id="resque_button_help_winter"
+              class="resque_button_next"
+            >
+              >Отправить зимнюю гуманитарную помощь
+            </button>
+            <button
+              type="button"
+              id="resque_button_help_hot"
+              class="resque_button_next"
+            >
+              >Отправить огнеупорную гуманитарную помощь
+            </button>
+            <button
+              type="button"
+              id="resque_button_help_return"
+              class="resque_button_next"
+            >
+              >Перенаправить запрос...
+            </button>
+            <button
+              type="button"
+              id="resque_button_help_cancel"
+              class="resque_button_next"
+            >
+              >Отказать в запросе
+            </button>
+          </div>
+        </div>
+        <div class="second_part_screen" id="condition_screen">
+          <div
+            id="condition_screen_tip_1"
+            class="tip"
+            style="margin-left: 66vw; margin-top: -13vh"
+          >
+            ?
+          </div>
+          <div
+            class="tip_boxes tooltip_1"
+            id="condition_screen_tip_box_1"
+            style="margin-top: 0vh; visibility: hidden; width: calc(100% - 4vw)"
+          >
+            <p>
+              Критерии для выбора дальнейших действий по запросу. Не соблюдение
+              требований возможно только при сложной или неоднозначной ситуации
+              о которой также стоит сообщить в главный отдел.
+            </p>
+            <img src="images/close.svg" alt="" class="closing_tip" />
+          </div>
+          <div class="two_condition_texts hidden_tool">
+            <p class="condition_text text">
+              Базовая гум.помощь <br />
+              &mdash;&nbsp;Уровень поражения катастроф выше среднего <br />
+              &mdash;&nbsp;Запрос из&nbsp;городу подвергшегося за&nbsp;последние
+              2&nbsp;недели катастрофе <br />
+              <br />
+              Зимняя гум.помощь <br />
+              &mdash;&nbsp;Разница дневных температур больше 10&deg;С,
+              а&nbsp;средняя температура за&nbsp;неделю ниже 0&deg;С <br />
+              &mdash;&nbsp;Малая подготовленность города к&nbsp;резким
+              изменениям (отсутствие центра безопасности&nbsp;/
+              исследовательского центра и&nbsp;т.д) <br />
+              <br />
+              Огнеупорная гум.помощь <br />
+              &mdash;&nbsp;Разница дневных температур больше 15&deg;С,
+              а&nbsp;средняя температура за&nbsp;неделю выше 35&deg;С <br />
+              &mdash;&nbsp;Малая подготовленность города к&nbsp;резким
+              изменениям (отсутствие центра безопасности&nbsp;/
+              исследовательского центра и&nbsp;т.д) <br />
+              &mdash;&nbsp;Наличие неестественной активности центральной звезды
+            </p>
+            <p class="condition_text text">
+              Группа спасения Первый критерий отбора Второй критерий отбора
+              Третий критерий отбора с разными вариантамиесли что-то одно, то
+              используем такую штуку если другое условие то применяем другие
+              Группа волонтеров Первый критерий отбора Второй критерий отбора
+              Третий критерий отбора с разными вариантамиесли что-то одно, то
+              используем такую штуку если другое условие то применяем другие
+              Группа технической поддежки Первый критерий отбора Второй критерий
+              отбора Третий критерий отбора с разными вариантамиесли что-то
+              одно, то используем такую штуку если другое условие то
+            </p>
+          </div>
+        </div>
+        <div class="second_part_screen" id="planet_screen">
+          <div
+            id="planet_screen_tip_1"
+            class="tip"
+            style="margin-left: 56vw; margin-top: -11vh"
+          >
+            ?
+          </div>
+          <div
+            class="tip_boxes tooltip_1"
+            id="planet_screen_tip_box_1"
+            style="margin-top: 0vh; visibility: hidden; width: calc(100% - 4vw)"
+          >
+            <p>
+              Базовая информация о планете и последних катастрофах на ней. При
+              необходимости дополнительных данных отправьте запрос в главный
+              офис
+            </p>
+            <img src="images/close.svg" alt="" class="closing_tip" />
+          </div>
+          <div
+            style="display: flex; justify-content: space-between"
+            class="hidden_tool"
+          >
+            <div class="planet_div">
+              <img src="images/planet_1.png" alt="" class="planet" />
+            </div>
+            <div class="planet_tablet_div">
+              <div
+                class="planet_tablet_line"
+                style="border-bottom: 6px solid #b8ec49"
+              >
+                <div
+                  class="planet_tablet small_tablet"
+                  style="border-right: 6px solid #b8ec49"
+                >
+                  <p id="info_planet">А-564</p>
+                </div>
+                <div
+                  class="planet_tablet long_tablet"
+                  style="justify-content: center"
+                >
+                  <p id="info_center">ЦЕНТР ПОМОЩИ №28</p>
+                </div>
+              </div>
+              <div class="planet_tablet_line">
+                <div
+                  class="planet_tablet mid_tablet"
+                  style="border-right: 6px solid #b8ec49"
+                >
+                  <p>ЗВЕЗДА</p>
+                </div>
+                <div class="planet_tablet mid_tablet" style="padding-left: 4vw">
+                  <p id="info_star">
+                    Проксима <br />
+                    Центавра
+                  </p>
+                </div>
+              </div>
+              <div class="planet_tablet_line">
+                <div
+                  class="planet_tablet mid_tablet"
+                  style="border-right: 6px solid #b8ec49"
+                >
+                  <p>АТМОСФЕРА</p>
+                </div>
+                <div class="planet_tablet mid_tablet" style="padding-left: 4vw">
+                  <p id="info_atmosphere">пригодная</p>
+                </div>
+              </div>
+              <div
+                class="planet_tablet_line"
+                style="border-top: 6px solid #b8ec49"
+              >
+                <div
+                  class="planet_tablet long_tablet"
+                  style="border-right: 6px solid #b8ec49"
+                >
+                  <p>СРЕДНЯЯ ТЕМПЕРАТУРА</p>
+                </div>
+                <div
+                  class="planet_tablet small_tablet"
+                  style="padding-left: 4vw"
+                >
+                  <p id="info_temp">↓2°С</p>
+                </div>
+              </div>
+              <div class="planet_tablet_line">
+                <div
+                  class="planet_tablet long_tablet"
+                  style="border-right: 6px solid #b8ec49"
+                >
+                  <p>
+                    СРЕДНЯЯ СКОРОСТЬ <br />
+                    СВЕТА
+                  </p>
+                </div>
+                <div
+                  class="planet_tablet small_tablet"
+                  style="padding-left: 4vw"
+                >
+                  <p id="info_wind">10м/с</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 3vh" class="hidden_tool">
+            <div
+              style="
+                width: 100%;
+                height: 1vh;
+                border-top: 1vh dashed #b8ec49;
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+              "
+            ></div>
+            <h2 style="text-align: left">ПОСЛЕДНИЕ КАТАСТРОФЫ</h2>
+            <p
+              class="text"
+              style="width: 100%; height: 15vh; overflow: auto"
+              id="planet_text_1"
+            >
+              <26.04.45> <br />
+              Землетрясение в трех центральных районах
+              <br />
+              <br />
+              <16.05.45> <br />
+              Неестественная активность растений “Морозная ива”
+              <br />
+              <br />
+              <01.06.45> <br />
+              Разница температур за день выше 15°С. На 20 градусов ниже нормы.
+              <br />
+              <br />
+              <10.06.45> <br />
+              Температура стабилизировалась. Средняя дневная температура на 15°С
+              ниже нормы
+            </p>
+            <p
+              class="text"
+              style="
+                width: 100%;
+                height: 15vh;
+                overflow: auto;
+                visibility: hidden;
+              "
+              id="planet_text_2"
+            >
+              <12.03.45> <br />
+              Особо длинние полярные ночи: 158 дней. Причины выясняются
+              <br />
+              <br />
+              <16.03.45> <br />
+              Резкая активность Бегунов и неоновых жаб, несмотря на высокие
+              температуры
+              <br />
+              <br />
+              <17.04.45> <br />
+              Обнаружены нестабильное распространение заражения на юге планеты
+            </p>
+          </div>
+        </div>
+        <div class="second_part_screen" id="group_screen">
+          <div style="display: flex; justify-content: space-between">
+            <div
+              id="group_screen_tip_1"
+              class="tip"
+              style="margin-left: 50vw; margin-top: -14vh"
+            >
+              ?
+            </div>
+            <div
+              class="tip_boxes tooltip_1"
+              id="group_screen_tip_box_1"
+              style="
+                margin-top: 0vh;
+                visibility: hidden;
+                width: calc(100% - 4vw);
+              "
+            >
+              <p>
+                Ресурсы центра ограничены, поэтому не всегда вам будет доступно
+                отправить ту или иную группу. Если вам нужно отправить
+                недоступную группировку,найдите альтернативное решение или
+                перенаправьте запрос в другое отделение
+              </p>
+              <img src="images/close.svg" alt="" class="closing_tip" />
+            </div>
+            <div id="groups_buttons" class="groups_buttons hidden_tool">
+              <button
+                type="button"
+                id="safety_group_button"
+                class="group_button"
+                style="margin-top: 0px"
+              >
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_1"
+                  ></div>
+                  <p>Группа спасения</p>
+                </div>
+                <p>х2</p>
+              </button>
+
+              <div style="margin-bottom: 25px">
+                <button
+                  type="button"
+                  class="group_button"
+                  style="
+                    border: 0px;
+                    background-color: #021a0c;
+                    padding-left: 26px;
+                  "
+                >
+                  <div style="display: flex; align-items: center">
+                    <div
+                      class="groups_buttons_selector"
+                      id="groups_buttons_selector"
+                      style="
+                        background-color: #93c23d;
+                        border: 6px solid #93c23d;
+                      "
+                    ></div>
+                    <p style="color: #93c23d">Группа волонтеров</p>
+                  </div>
+                  <p></p>
+                </button>
+                <div class="crossed_line_button"></div>
+              </div>
+
+              <button type="button" id="tech_group_button" class="group_button">
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_3"
+                  ></div>
+                  <p>Техническая группа</p>
+                </div>
+                <p>х1</p>
+              </button>
+
+              <button type="button" id="evoq_group_button" class="group_button">
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_4"
+                  ></div>
+                  <p>Группа временной эвакуации</p>
+                </div>
+                <p>х1</p>
+              </button>
+
+              <button type="button" id="gum_base_button" class="group_button">
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_5"
+                  ></div>
+                  <p>Базовая гум.помощь</p>
+                </div>
+                <p id="gum_base_count">х7</p>
+              </button>
+
+              <button type="button" id="gum_winter_button" class="group_button">
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_6"
+                  ></div>
+                  <p>Зимняя гум.помощь</p>
+                </div>
+                <p id="gum_winter_count">х2</p>
+              </button>
+
+              <button type="button" id="gum_fire_button" class="group_button">
+                <div style="display: flex; align-items: center">
+                  <div
+                    class="groups_buttons_selector"
+                    id="groups_buttons_selector_7"
+                  ></div>
+                  <p>Огнестойкая гум.помощь</p>
+                </div>
+                <p id="gum_fire_count">х3</p>
+              </button>
+            </div>
+            <div
+              style="
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 3%;
+              "
+            >
+              <img
+                src="images/group_safety.png"
+                alt=""
+                style="height: 51vh"
+                id="group_screen_img"
+                class="hidden_tool"
+              />
+            </div>
+          </div>
+          <div id="groups_text" style="visibility: hidden" class="hidden_tool">
+            <div
+              style="
+                width: 100%;
+                height: 1vh;
+                border-top: 1vh dashed #b8ec49;
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+              "
+            ></div>
+            <div style="display: flex">
+              <h2 id="group_text_name_prev" style="opacity: 0.4"><</h2>
+              <h2
+                id="group_text_name"
+                style="margin-left: 15px; margin-right: 15px"
+              >
+                Группа спасения №56
+              </h2>
+              <h2 id="group_text_name_next">></h2>
+            </div>
+            <div
+              class="text"
+              style="width: 97%; margin-left: 3%; height: 15vh; overflow: auto"
+              id="group_main_text"
+            >
+              <p id="group_main_text_1">
+                Состав: Анджена (678_АЛ),Верон (8009_АН), Принал (453_АП),Ян
+                (7764_АА)
+              </p>
+              <br />
+              <br />
+              <p id="group_main_text_2">
+                Область работ: планеты с низкими температурами, ураганами,
+                песчаными бурями; помощь в строительстве подземных жилых
+                комплексов
+              </p>
+              <br />
+              <br />
+              <p id="group_main_text_3">Ближайшая свободная дата: 27.06.45</p>
+              <br />
+              <br />
+              <p id="group_main_text_4">
+                Отчет последней операции: Вывезено 89 человек из воздушного
+                саркофага №8 на планете О-98 во время песчаного урагана 11
+                баллов.
+              </p>
+            </div>
+          </div>
+          <div id="boxes_text" style="visibility: hidden" class="hidden_tool">
+            <div
+              style="
+                width: 100%;
+                height: 1vh;
+                border-top: 1vh dashed #b8ec49;
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+              "
+            ></div>
+            <h2 id="boxes_text_1">Базовая гуманитарная помощь</h2>
+            <div class="text" style="width: 100%; height: 15vh; overflow: auto">
+              <br />
+              <br />
+              <p id="boxes_text_3">
+                Состав: сухое горючее, спички, медицинские жгуты, марлевые
+                бинты, йод, кровоостанавливающие, аспирин, влажные салфетки,
+                термобелье, рюкзак, спальный мешок, быстрорастворимая каша,
+                шоколад, консервы, сухофрукты, Фильтр для очистки воды
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+          "
+          id="obrabotka"
+        >
+          <div>
+            <div class="full_screen_line"></div>
+            <p id="obrabotka_text_1">
+              Гуманитарная помощь отправлена на планету А-564
+            </p>
+            <br />
+            <br />
+            <p id="obrabotka_text_2">Обработано 1/2 запросов</p>
+
+            <br />
+            <br />
+            <button
+              type="button"
+              style="visibility: hidden"
+              id="obrabotka_button"
+            >
+              >Следующий запрос
+            </button>
+            <button type="button" style="visibility: hidden" id="finish_button">
+              >Закончить обучение
+            </button>
+          </div>
+          <div
+            class="obrabotka_div"
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              align-items: center;
+            "
+          >
+            <img src="images/boxes.png" alt="" id="obrabotka_img" />
+            <img
+              id="change"
+              style="height: 14vh; margin-top: -14vh"
+              src="images/change_01.png"
+              alt=""
+            />
+            <img src="images/planet_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RESULT SCREEN -->
+    <div id="result" style="display: block; visibility: visible">
+      <div class="menu_educ">
+        <div
+          class="menu_block active"
+          id="menu_block_results"
+          style="height: 37vh; border-top: 0px"
+        >
+          <p>РЕЗУЛЬТАТЫ</p>
+        </div>
+        <div
+          class="menu_block"
+          id="menu_block_errors"
+          style="height: 37vh; border-bottom: 6px solid #b8ec49"
+        >
+          <p>ОШИБКИ</p>
+        </div>
+      </div>
+      <div class="screen">
+        <div id="screen_results">
+          <h1 id="result_1" style="visibility: hidden">ПОЗДРАВЛЯЕМ!</h1>
+          <h2 id="result_2" style="visibility: hidden">
+            Обучение завершено успешно
+          </h2>
+          <h1 style="margin-top: 10vh; visibility: hidden" id="result_3"></h1>
+          <h2 id="result_4" style="visibility: hidden">правильных ответов</h2>
+          <img
+            src="images/congrant_semmy.png"
+            alt=""
+            style="
+              height: auto;
+              width: 40vw;
+              margin-left: 23vw;
+              visibility: hidden;
+              margin-top: 2vh;
+            "
+            id="congrant_img"
+          />
+        </div>
+        <div id="screen_errors" style="display: none; visibility: hidden">
+          <h1>ОШИБКИ</h1>
+          <h2
+            style="text-align: left; margin-top: 10vh; display: none"
+            id="error_text_0"
+          >
+            Вы молодцы, ошибок нет:)
+          </h2>
+          <div id="error_text_1" style="display: none">
+            <h2 style="text-align: left; margin-top: 5vh">
+              Запрос №1 на гуманитарную помощь
+            </h2>
+            <p>Ежедненвная температура ниже -10</p>
+          </div>
+          <br />
+          <br />
+          <div id="error_text_2" style="display: none">
+            <h2 style="text-align: left">Запрос №2 на помощь планете</h2>
+            <p>Недостаточный масштаб для вызова эвакуационной группы</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="script/index.js"></script>
+    <script defer src="script/game_1.js"></script>
+    <script defer src="script/game_2.js"></script>
+    <script defer src="script/tips.js"></script>
+    <script defer src="script/results.js"></script>
+    <script src="script/jquery-3.6.3.js"></script>
+  </body>
+</html>
